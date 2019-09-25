@@ -1,0 +1,4 @@
+#ignoring log files
+*.log
+#ignoring Nexial output directory
+**/Nexial/output

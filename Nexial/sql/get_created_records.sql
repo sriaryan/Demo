@@ -1,0 +1,2 @@
+--this query collects all the records from db that were inserted as a part of the data setup. Used for logging purpose
+SELECT id,external_id,slug FROM purchase_order WHERE id >= _replaceSeed_ AND id <= _lastSeed_ ORDER BY id ASC;
